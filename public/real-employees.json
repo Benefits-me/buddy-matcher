@@ -1,0 +1,40 @@
+{
+  "C-Level": {
+    "Jascha Campo": { "email": "jascha.campo@benefits.me", "departments": ["IT", "Marketing", "Customer Happiness"] },
+    "Sandro Henseling": { "email": "s.henseling@benefits.me", "departments": ["People & Organisation"] },
+    "Alex Richter": { "email": "alex.richter@benefits.me", "departments": ["Angebote"] }
+  },
+  "IT": [
+    { "name": "Dominik Sommer", "email": "dominik.sommer@benefits.me" },
+    { "name": "Marcel Kießlich", "email": "marcel.kiesslich@benefits.me" },
+    { "name": "René Lahaye", "email": "rene.lahaye@benefits.me" },
+    { "name": "Timo Paul", "email": "timo.paul@benefits.me" }
+  ],
+  "Marketing": [
+    { "name": "Laura Kühn", "email": "laura.kuehn@benefits.me" },
+    { "name": "Sofie Kluger", "email": "sofie.kluger@benefits.me" },
+    { "name": "Sophia Fotini Franz", "email": "sophia.franz@benefits.me" },
+    { "name": "Viktoria Pultar", "email": "viktoria.pultar@benefits.me" }
+  ],
+  "Customer Happiness": [
+    { "name": "Emily Bednarz", "email": "emily.bednarz@benefits.me" },
+    { "name": "Johanna Nicklaus", "email": "johanna.nicklaus@benefits.me" },
+    { "name": "Lukas Drautsch", "email": "lukas.drautsch@benefits.me" },
+    { "name": "Meike Sombrutzki", "email": "meike.sombrutzki@benefits.me" },
+    { "name": "Yasmin Hirsch", "email": "yasmin.hirsch@benefits.me" }
+  ],
+  "Angebote": [
+    { "name": "Jonas Reul", "email": "jonas.reul@benefits.me" },
+    { "name": "Luisa Zelt", "email": "luisa.zelt@benefits.me" },
+    { "name": "Mirko Müller", "email": "mirko.mueller@benefits.me" },
+    { "name": "Nadine Dohn", "email": "nadine.dohn@benefits.me" }
+  ],
+  "People & Organisation": [
+    { "name": "Kyle Maurer", "email": "kyle.maurer@benefits.me" },
+    { "name": "Michelle Seelinger", "email": "michelle.seelinger@benefits.me" },
+    { "name": "Saskia Krämer", "email": "saskia.kraemer@benefits.me" }
+  ],
+  "Customer Success": [
+    { "name": "Sarah Stahl", "email": "sarah.stahl@benefits.me" }
+  ]
+}
