@@ -1,0 +1,27 @@
+{
+  "C-Level": {
+    "Clara Müller": { "email": "clara.mueller@benefits.me", "departments": ["IT", "Marketing"] },
+    "Tom CEO": { "email": "tom.ceo@benefits.me", "departments": ["Sales", "Finance"] }
+  },
+  "IT": [
+    { "name": "Max Mustermann", "email": "max.mustermann@benefits.me" },
+    { "name": "Anna Schmidt", "email": "anna.schmidt@benefits.me" },
+    { "name": "Peter Wagner", "email": "peter.wagner@benefits.me" }
+  ],
+  "Marketing": [
+    { "name": "Lisa Müller", "email": "lisa.mueller@benefits.me" },
+    { "name": "Tom Weber", "email": "tom.weber@benefits.me" },
+    { "name": "Sophie Klein", "email": "sophie.klein@benefits.me" }
+  ],
+  "Sales": [
+    { "name": "Sarah Klein", "email": "sarah.klein@benefits.me" },
+    { "name": "Michael Becker", "email": "michael.becker@benefits.me" }
+  ],
+  "Human Resources": [
+    { "name": "Julia Hoffmann", "email": "julia.hoffmann@benefits.me" },
+    { "name": "David Richter", "email": "david.richter@benefits.me" }
+  ],
+  "Finance": [
+    { "name": "Maria Fischer", "email": "maria.fischer@benefits.me" }
+  ]
+}

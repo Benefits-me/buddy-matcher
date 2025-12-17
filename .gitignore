@@ -1,0 +1,32 @@
+# IDE Konfigurationen ignorieren
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.sw?
+*.DS_Store
+*.vscode-test/
+
+# JetBrains IDEs
+*.log
+
+# Sonstige temporäre/Projektdateien
+*.tmp
+*.bak
+*.orig
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Sonstiges
+node_modules/
+.env
+

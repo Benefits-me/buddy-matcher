@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddy Matcher - Mitarbeiter Matching</title>
+    <!-- Google Fonts: Open Sans & Caveat -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="buddy-matcher.css">
+</head>
+<body>
+<div class="container">
+    <h1>🤝 Buddy Matcher</h1>
+    <p class="subtitle">Erstelle automatisch Buddy-Matches zwischen Mitarbeitern aus verschiedenen Abteilungen</p>
+
+    <div class="upload-section" id="uploadSection">
+        <div class="upload-icon">📁</div>
+        <h3>JSON-Datei hochladen</h3>
+        <p style="margin: 15px 0; color: #666;">
+            Klicken Sie hier oder ziehen Sie eine JSON-Datei per Drag & Drop hierher
+        </p>
+        <input type="file" id="fileInput" accept=".json">
+        <button class="btn" onclick="document.getElementById('fileInput').click()">
+            Datei auswählen
+        </button>
+    </div>
+
+    <div class="info-box">
+        <h3>📋 JSON-Format Beispiel</h3>
+        <pre>{
+  "C-Level": {
+    "Anna Vorstand": { "email": "anna@firma.de", "departments": ["IT", "Marketing"] },
+    "Tom CEO": { "email": "tom@firma.de", "departments": ["Sales"] }
+  },
+  "IT": [
+    {"name": "Max Mustermann", "email": "max@example.com"},
+    {"name": "Anna Schmidt", "email": "anna@example.com"}
+  ],
+  "Marketing": [
+    {"name": "Lisa Müller", "email": "lisa@example.com"},
+    {"name": "Tom Weber", "email": "tom@example.com"}
+  ],
+  "Sales": [
+    {"name": "Sarah Klein", "email": "sarah@example.com"}
+  ]
+}</pre>
+    </div>
+
+    <div id="results" class="hidden">
+        <div class="stats" id="stats"></div>
+
+        <div class="results">
+            <h2 style="margin-bottom: 20px;">✨ Buddy Matches</h2>
+            <div class="match-list" id="matchList"></div>
+        </div>
+
+        <div class="actions">
+            <button class="btn" onclick="downloadResults()">📥 Ergebnisse herunterladen (JSON)</button>
+            <button class="btn" onclick="downloadResultsCSV()">📥 Ergebnisse herunterladen (CSV)</button>
+            <button class="btn" onclick="resetApp()">🔄 Neue Datei hochladen</button>
+        </div>
+    </div>
+
+    <div id="errorMessage" class="error hidden"></div>
+</div>
+
+<script src="buddy-matcher.js"></script>
+</body>
+</html>
